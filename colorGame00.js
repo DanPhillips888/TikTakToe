@@ -86,8 +86,6 @@ const Board = () => {
           {renderSquare(8)}
         </div>
       <div id="info">
-        <button >Show/Hide Row</button>
-        <button >Re-Render</button>
         {/* <h1>It is Player {player}'s turn</h1> */}
         <h1> {status} </h1>
       </div>
